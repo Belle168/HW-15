@@ -2,11 +2,14 @@ import React,{ Component } from "react";
 import './App.css';
 
 class Todo extends Component {
-  state = {
-    nameOfList: "",
-    lists: []
+  
+  constructor(){
+    super()
+    this.state = {
+      nameOfList: "",
+      lists: []
+    };
   };
-
   render() {
      
     return (
